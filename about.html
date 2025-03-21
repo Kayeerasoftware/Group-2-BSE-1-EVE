@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Bunya Secondary School's history, mission, vision, and core values">
+    <title>About Us - Bunya Secondary School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+             <img src="BSS LOG.jpg" alt="Bunya Secondary School Logo" class="logo">
+            <h1>Bunya Secondary School</h1>
+            <p class="motto">Motto: Ever Forward</p>
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="news.html">News & Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about-tabs">
+            <h2>About Us</h2>
+            <div class="tab-buttons">
+                <button class="tab-btn active" onclick="showTab('history')">History</button>
+                <button class="tab-btn" onclick="showTab('mission')">Mission & Vision</button>
+                <button class="tab-btn" onclick="showTab('values')">Core Values</button>
+            </div>
+            <div id="history" class="tab-content active">
+                <p>Bunya Secondary School was founded in 1980 and has been a cornerstone of education in Mayuge District for over four decades.</p>
+            </div>
+            <div id="mission" class="tab-content">
+                <p><strong>Mission:</strong> To provide quality education that empowers students to excel academically and morally.</p>
+                <p><strong>Vision:</strong> To be a leading educational institution in Uganda, fostering innovation and leadership.</p>
+            </div>
+            <div id="values" class="tab-content">
+                <ul>
+                    <li>Integrity</li>
+                    <li>Excellence</li>
+                    <li>Respect</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Bunya Secondary School. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

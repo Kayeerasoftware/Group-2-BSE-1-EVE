@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stay updated with the latest news and events at Bunya Secondary School">
+    <title>News & Events - Bunya Secondary School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+             <img src="BSS LOG.jpg" alt="Bunya Secondary School Logo" class="logo">
+            <h1>Bunya Secondary School</h1>
+            <p class="motto">Motto: Ever Forward</p>
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="news.html" class="active">News & Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="news">
+            <h2>News & Events</h2>
+            <h3>Recent News</h3>
+            <article>
+                <p><strong>February 2023:</strong> Fundraising event for a girls' hostel attended by Speaker Anita Among.</p>
+            </article>
+            <h3>Upcoming Events</h3>
+            <ul id="events-list">
+                <li>March 25, 2025: Sports Day</li>
+                <li>April 10, 2025: Parents' Meeting</li>
+            </ul>
+            <h3>Submit News/Event</h3>
+            <form id="news-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+                <label for="description">Description:</label>
+                <textarea id="description" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Bunya Secondary School. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the academic programs and faculty at Bunya Secondary School">
+    <title>Academics - Bunya Secondary School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+             <img src="BSS LOG.jpg" alt="Bunya Secondary School Logo" class="logo">
+            <h1>Bunya Secondary School</h1>
+            <p class="motto">Motto: Ever Forward</p>
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html" class="active">Academics</a></li>
+            <li><a href="news.html">News & Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="academics">
+            <h2>Academics</h2>
+            <div class="accordion">
+                <button class="accordion-btn" onclick="toggleAccordion(this)">Mathematics</button>
+                <div class="accordion-content">
+                    <p>Teacher: Mr. Okello. Focuses on algebra, geometry, and calculus.</p>
+                </div>
+                <button class="accordion-btn" onclick="toggleAccordion(this)">English</button>
+                <div class="accordion-content">
+                    <p>Teacher: Ms. Namutebi. Covers grammar, literature, and composition.</p>
+                </div>
+            </div>
+            <h3>Faculty</h3>
+            <table id="subjects-table">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Teacher</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Bunya Secondary School. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
