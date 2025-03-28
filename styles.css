@@ -97,7 +97,7 @@ body.dark-mode h2 {
 
 /* Hero Section */
 .hero {
-    background: url('https://placehold.co/1200x400?text=Hero+Image') no-repeat center center/cover;
+    background: ;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -112,7 +112,7 @@ body.dark-mode h2 {
 /* Slideshow */
 .slideshow-container {
     position: relative;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 10px;
