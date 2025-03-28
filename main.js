@@ -28,9 +28,18 @@ function toggleAccordion(button) {
 
 // Dynamic Table (Academics)
 const subjects = [
-    { subject: 'Mathematics', teacher: 'Mr. Okello' },
-    { subject: 'English', teacher: 'Ms. Namutebi' },
-    { subject: 'Science', teacher: 'Dr. Kizito' }
+    { subject: 'Mathematics', teacher: 'Mr. Okello, Mr.Kaiza Peter, Mr Knoxwell Luzige, Mr.Allan Ssentumbwe, Mr.Ssempa Paul, Mr.Ntare Elvin' },
+    { subject: 'English', teacher: 'Ms. Namutebi, Ms. Joan Kimuli, Mr.Raymond Kageri, Mr.Moses Komunina' },
+    { subject: 'Biology', teacher: 'Mr. Martin Shikuku, Ms. Rogers Naturinda, Mr.Kayeera Nathan, Mr.Joseph Sentamu' }
+    { subject: 'Physics', teacher: 'Ms.Esther Nansukusa, Mr.Damian Karabo, Ms.Nankya Ingrid, Ms.Nabunya Desire' }
+    { subject: 'Chemistry', teacher: 'Ms.kalanzi Mark, Mr.Ojok Erick, Mr.Lubega Henry' }
+    { subject: 'Economics', teacher: 'Ms.Kityingi John, Mr.Lynette Kabagaju, Ms.Ptricia Kuheebwa' }
+    { subject: 'History', teacher: 'Mr.Laban Kamara, Ms.Kizito Grace , Ms.Nakintu Tyra' }
+    { subject: 'Geography', teacher: ' Mr.Lubega Grace, Ms.Kyomuhangi Martha, Ms.Mellisa Atim' }
+    { subject: 'Luganda', teacher: 'Ms.Namakola Stacy, Ms.Amasha Deborah,Mr.Gyagenda Mark' }
+    { subject: 'Germany', teacher: 'Mr.Htla Otim, Ms.Vicky Atwaro, Ms.Mdondo Alexa ' }
+    { subject: 'French', teacher: 'Mr.Ssebunya Alex, Mr.Kiconco Doreen, Ms.Nakigudde Damalie' }
+    { subject: 'Computer', teacher: 'Mr.Mugisha Andrew , Ms.Tendo Nalukenge, Mr.Tom Mugerwa' }
 ];
 const tableBody = document.querySelector('#subjects-table tbody');
 if (tableBody) {
