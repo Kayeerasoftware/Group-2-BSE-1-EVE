@@ -80,6 +80,13 @@ nav ul li a:hover, nav ul li a.active {
     color: #004080;
     border-radius: 5px;
 }
+  
+img {
+      width: 100px;
+      height: auto;
+      max-width: 100%;
+      display: block;
+    }
 
 /* Main Content */
 main {
@@ -105,12 +112,7 @@ body.dark-mode h2 {
     margin-bottom: 20px;
 }
 
-    img {
-      width: 100px;
-      height: auto;
-      max-width: 100%;
-      display: block;
-    }
+
 .hero h2 {
     font-size: 2.5em;
     color: white;
