@@ -26,6 +26,7 @@ header {
     padding: 20px;
     text-align: center;
 }
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -106,7 +107,7 @@ body.dark-mode h2 {
 
 /* Hero Section */
 .hero {
-    background: ;
+    background: white;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -123,10 +124,10 @@ body.dark-mode h2 {
 .info_message{
     margin:auto;
     float:left;
-    backgroundcolor:black;
-    border_right:solid,blue,1px;
-    border_bottom:solid,red,2px;
-
+    background-color:black;
+    border-right:solid,blue,1px;
+    border-bottom:solid,red,2px;
+}
 /* Slideshow */
 .slideshow-container {
     position: relative;
@@ -314,7 +315,7 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
