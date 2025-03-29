@@ -83,11 +83,11 @@ nav ul li a:hover, nav ul li a.active {
 }
   
 img {
-      width: 100vw;
-      height: 100vn;
+      width: 100px;
+      height: 100px;
       max-width: 100%;
       display: block;
-    object_fit:cover;
+    
     }
 
 /* Main Content */
