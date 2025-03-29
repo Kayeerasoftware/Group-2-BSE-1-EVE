@@ -31,6 +31,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    
 }
 .logo {
     width: 100px;
@@ -82,10 +83,11 @@ nav ul li a:hover, nav ul li a.active {
 }
   
 img {
-      width: 100px;
-      height: auto;
+      width: 100vw;
+      height: 100vn;
       max-width: 100%;
       display: block;
+    object_fit:cover;
     }
 
 /* Main Content */
@@ -110,7 +112,7 @@ body.dark-mode h2 {
     padding: 100px 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    width:100%;
+    
 }
 
 
