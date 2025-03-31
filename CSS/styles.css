@@ -13,6 +13,12 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+.h3{
+    color: orangered;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
 /* Dark Mode */
 body.dark-mode {
     background-color: #1a1a1a;
@@ -84,12 +90,15 @@ nav ul li a:hover, nav ul li a.active {
 }
   
 img {
-      width: 100px;
-      height: 100px;
-      max-width: 100%;
+      width: 100%;
+      height: auto;
       display: block;
-    
     }
+
+.gallerylogo{
+    width: 100px;
+    border-radius: 50px;
+}
 
 /* Main Content */
 main {
@@ -107,13 +116,15 @@ body.dark-mode h2 {
 
 /* Hero Section */
 .hero {
-    background: white;
-    color: white;
+    background: yellow;
+    color: rgb(100, 18, 18);
     text-align: center;
     padding: 100px 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     width: 100%;
+    object-fit: cover;
+    background-image: url('/IMAGES/Final UMSS ompaund 5.jpeg');
 }
 
 
@@ -131,10 +142,10 @@ body.dark-mode h2 {
 /* Slideshow */
 .slideshow-container {
     position: relative;
-    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     margin: 0 auto;
-    overflow: hidden;
-    border-radius: 10px;
 }
 .slide {
     display: none;
@@ -294,19 +305,48 @@ body.dark-mode form button:hover {
 
 /* Gallery */
 .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 15px;
-    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 50px auto;
+    width:100%;
+    height: 100%;
+    display:grid;
 }
-.gallery-img {
+
+.gallery-grid img {
     width: 100%;
-    border-radius: 5px;
+    height: auto;
     cursor: pointer;
     transition: transform 0.3s;
 }
-.gallery-img:hover {
+
+.gallery-grid img:hover {
     transform: scale(1.05);
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.lightbox span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 /* Footer */
