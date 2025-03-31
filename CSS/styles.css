@@ -27,7 +27,7 @@ body.dark-mode {
 
 /* Header */
 header {
-    background-color: #004080;
+    background: #004080 url("Final UMSS ompaund 4.jpeg") no repeat scroll;
     color: white;
     padding: 20px;
     text-align: center;
