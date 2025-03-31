@@ -64,7 +64,7 @@ header {
 nav {
     background-color: #0059b3;
     padding: 10px 0;
-    position: sticky;
+    position:sticky;
     top: 0;
     z-index: 1000;
 }
@@ -90,7 +90,7 @@ nav ul li a:hover, nav ul li a.active {
 }
   
 img {
-      width: 100%;
+      width: 70%;
       height: auto;
       display: block;
     }
@@ -329,8 +329,7 @@ body.dark-mode form button:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    height: 100%;   
     justify-content: center;
     align-items: center;
 }
