@@ -7,7 +7,7 @@ if (slides.length > 0) {
         currentSlide = (currentSlide + 1) % slides.length;
         slides[currentSlide].classList.add('active');
     }
-    setInterval(showNextSlide, 3000);
+    setInterval(showNextSlide, 5000);
 }
 
 // Tabs (About Us)
