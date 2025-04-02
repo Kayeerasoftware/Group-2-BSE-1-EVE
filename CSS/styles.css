@@ -27,20 +27,11 @@ body.dark-mode {
 
 /* Header */
 header {
-    
+    background-color:blue;
     color: white;
     padding: 20px;
     text-align: center;
-    background-color: #ffff;
-    background-image: url("..Images/Final UMSS Building 1.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size:cover;
-    width: 1000px;
-    height: 500px;
-    filter: brightness(0.8);
-    z-index: -1;
-    font-size: 2em;
+    
 }
 
 .header-container {
